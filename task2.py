@@ -11,3 +11,9 @@
 # volume
 #
 # test output radius of 3 should give volume of 113.09733552923254
+
+import math
+question = "what is the radius of the sphere?"
+Ghost = int(input(question))
+Scary = 4/3*math.pi*Ghost**3
+print(f"The radius of your sphere is {Ghost} and your volume is {Scary}")

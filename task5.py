@@ -13,3 +13,10 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+
+import math
+print("You are solving the radius of your cone")
+Bat = "Volume="
+Potion = int(input(Bat))
+Pumpkin = math.cbrt(Potion/(4/3*math.pi))
+print(f"Your radius is {Pumpkin}")

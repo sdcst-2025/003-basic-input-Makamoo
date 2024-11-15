@@ -16,3 +16,12 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+import math
+print("You are trying to solve the surface area of your cone")
+We = "height="
+Did = "Radius="
+The = int(input(We))
+Mash = int(input(Did))
+MonsterMash = math.pi*Mash*(Mash+math.sqrt(The**2+Mash**2))
+print(f"the surface area is {MonsterMash}")
